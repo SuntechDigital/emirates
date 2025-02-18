@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Emirates Cleaning Service – Professional cleaning solutions for homes, offices, and commercial spaces."
+    />
+    <title>Emirates Cleaning Service</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- flaticon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="/images/ss.webp" alt="Logo" class="logo" />
+        </a>
+
+        <!-- Toggle Button for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+
+            <!-- Dropdown for Cleaning Services -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="cleaningServiceDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cleaning Service
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="cleaningServiceDropdown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../../CleaningService/RegularOfficeClean"
+                  >
+                    Regular Office Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../../CleaningService/CarpetCleaning"
+                  >
+                    Carpet Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../../CleaningService/OfficeCarpetShampooing"
+                  >
+                    Office Carpet Shampooing
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../../CleaningService/WindowCleaning"
+                  >
+                    Window Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../../CleaningService/FacadeCleaning"
+                  >
+                    Facade Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../../CleaningService/AfterBuildingCleaning"
+                  >
+                    After Building Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../../CleaningService/PowerWashCleaning"
+                  >
+                    Power Wash Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../../CleaningService/MattressCleaning"
+                  >
+                    Mattress Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../../CleaningService/GroutCleaning"
+                  >
+                    Grout Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../../CleaningService/GlassCleaning"
+                  >
+                    Glass Cleaning
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Dropdown for Deep Cleaning -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="deepCleaningDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Deep Cleaning
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="deepCleaningDropdown">
+                <li>
+                  <a class="dropdown-item" href="../VillaDeepCleaning">Villa Deep Cleaning</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../DeepCleaningService/"
+                    >Deep Cleaning Service</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../MoveInOutDeepCleaningService"
+                    >Move In/Out Deep Cleaning Service</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../FloorDeepCleaningService"
+                    >Floor Deep Cleaning Service</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../OfficeDeepCleaning"
+                    >Office Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../SofaDeepCleaning"
+                    >Sofa Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../KitchenDeepCleaning"
+                    >Kitchen Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../ApartmentDeepCleaning"
+                    >Apartment Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../BalconyDeepCleaning"
+                    >Balcony Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../GarageDeepCleaning"
+                    >Garage Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../SteamDeepCleaning"
+                    >Steam Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href=""
+                    >Oven &amp; BBQ Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../RestaurantDeepCleaning"
+                    >Restaurant Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../ClubDeepCleaning"
+                    >Club Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../GymDeepCleaning"
+                    >Gym Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../CommercialDeepCleaning"
+                    >Commercial Deep Cleaning</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+<section class="ecs-dc-hero-section">
+  <div class="ecs-dc-hero-container">
+    <div class="ecs-dc-hero-content">
+      <div class="typewriter">
+        <h1 class="ecs-dc-main-heading">Oven & BBQ Deep Cleaning</h1>
+      </div>
+      <p class="ecs-dc-intro-text">
+        Welcome to Emirates Cleaning Service, your trusted partner for professional Oven & BBQ Deep Cleaning services in Dubai. We ensure your kitchen appliances operate efficiently and maintain the highest hygiene standards.
+      </p>
+      <a href="https://wa.me/+971544787079" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i> Book Now
+      </a>
+    </div>
+
+    <div class="ecs-dc-hero-image">
+      <img src="/images/Oven-bbq.webp" alt="Oven & BBQ Deep Cleaning" />
+    </div>
+  </div>
+</section>
+
+<!-- Deep Cleaning Details Section -->
+<section class="ecs-dc-details-section">
+  <div class="ecs-dc-service-container container">
+    <!-- Block 1: Why Choose Emirates Cleaning Service for Oven & BBQ Deep Cleaning -->
+    <div class="ecs-dc-service-block">
+      <h2 class="ecs-dc-subheading">Why Choose Emirates Cleaning Service for Oven & BBQ Deep Cleaning</h2>
+      <ul class="ecs-dc-feature-list">
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Expertise: Our team comprises skilled professionals with extensive experience in deep cleaning ovens and BBQs, ensuring a thorough and effective cleaning process.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Advanced Cleaning Techniques: We employ state-of-the-art techniques to remove grease, grime, and carbon deposits, while keeping the process environmentally friendly.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Comprehensive Cleaning Process: We cover every component—from grates and burners to interior walls and glass doors—ensuring no corner is left untouched.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Safe and Non-Toxic Cleaning Agents: Our eco-friendly, non-toxic cleaning solutions are tough on grease but gentle on your appliances, ensuring a healthy cooking environment.
+        </li>
+      </ul>
+    </div>
+
+    <!-- Block 2: What Our Oven & BBQ Deep Cleaning Services Include -->
+    <div class="ecs-dc-service-block">
+      <h2 class="ecs-dc-subheading">What Our Oven & BBQ Deep Cleaning Services Include</h2>
+      <ul class="ecs-dc-feature-list">
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Oven Cleaning: Removal of grease, burnt-on food, and carbon deposits from oven walls, racks, and trays; cleaning and degreasing of oven glass doors; thorough inspection and cleaning of heating elements; and elimination of odors for a fresh finish.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          BBQ Cleaning: Scrubbing and degreasing of BBQ grates; cleaning and sanitizing of burners for even heat distribution; removal of grease and residue from interior and exterior surfaces; and polishing of stainless steel components for a polished appearance.
+        </li>
+      </ul>
+    </div>
+
+    <!-- Block 3: Benefits and How It Works -->
+    <div class="ecs-dc-service-block">
+      <h2 class="ecs-dc-subheading">Benefits and How It Works</h2>
+      <ul class="ecs-dc-feature-list">
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Enhanced Performance: Improve the efficiency of your oven and BBQ with even heat distribution for better cooking results.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Extended Appliance Lifespan: Regular deep cleaning prevents the build-up of grease and carbon, extending the life of your appliances.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Health and Hygiene: Eliminate harmful bacteria and germs to create a hygienic cooking environment and reduce the risk of food contamination.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Time and Effort Savings: Let our professionals handle the dirty work, saving you valuable time and effort.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Booking: Schedule an appointment with Emirates Cleaning Service for your Oven & BBQ Deep Cleaning at a time that suits you.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Assessment: Our experts assess the condition of your appliances to determine the required level of cleaning.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Cleaning Process: We use advanced cleaning techniques and non-toxic agents to deep clean every component.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Inspection: A thorough inspection follows to ensure every part is spotless and functioning correctly.
+        </li>
+        <li class="ecs-dc-feature-item">
+          <i class="fas fa-check-circle ecs-dc-feature-icon"></i>
+          Completion: Once satisfied, we present you with a sparkling clean oven and BBQ, ready for use.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Deep Cleaning CTA Section -->
+<section class="ecs-dc-cta-section container">
+  <div class="ecs-dc-hero-container">
+    <div>
+      <h2 class="ecs-dc-subheading">Ready to Experience a Sparkling Clean Kitchen?</h2>
+    </div>
+    <div>
+      <p class="ecs-dc-intro-text" style="color: #2c3e50">
+        Contact Emirates Cleaning Service today to schedule your Oven & BBQ Deep Cleaning service and give your kitchen appliances the care they deserve!
+      </p>
+      <a href="tel:+971544787079" class="whatsapp-btn">
+        <i class="fas fa-phone"></i> Contact Us Today! +971544787079
+      </a>
+    </div>
+  </div>
+</section>
+
+    
+    <!-- Big Logo or Additional Content Section -->
+    <section class="py-5">
+      <div class="brand-contact container text-center">
+        <div class="brand-logo">
+          <img src="/images/only_name_high.webp" class="img-fluid" alt="" />
+        </div>
+        <div class="brand-details">
+          <h1>BUSINESS DETAILS</h1>
+          <strong>Working Hours</strong>
+          <p>8:00 am to 10:00 pm</p>
+          <strong>Address</strong>
+          <p>Blah Blah Blah</p>
+          <!-- WhatsApp and Call Buttons -->
+          <div class="business-button">
+            <a href="https://wa.me/+971544787079" class="whatsapp-btn">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+              />
+              WhatsApp
+            </a>
+            <a href="tel:+971544787079" class="call-btn">
+              <i class="mx-2 fas fa-phone"></i> Call Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <div class="social-icons">
+          <!-- Instagram -->
+          <a
+            href="https://www.instagram.com/emiratescleaningservice"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <!-- Facebook -->
+          <a
+            href="https://www.facebook.com/profile.php?id=61573453402987"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <!-- Twitter -->
+          <a href="https://x.com/EmiratesSe26469" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/@EmiratesCleaningService"
+            target="_blank"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://wa.me/+971544787079" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+
+        <p class="footer-bottom">
+          © 2025 Emirates Cleaning Service. All Rights Reserved.<br />
+        </p>
+      </div>
+    </footer>
+    <div class="sticky-bar">
+      <div class="business-button">
+        <a href="https://wa.me/+971544787079" class="whatsapp-btn">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+            alt="WhatsApp"
+          />
+          WhatsApp
+        </a>
+        <a href="tel:+971544787079" class="call-btn">
+          <i class="mx-2 fas fa-phone"></i> Call Us
+        </a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Emirates Cleaning Service – Professional cleaning solutions for homes, offices, and commercial spaces."
+    />
+    <title>Emirates Cleaning Service</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- flaticon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="images/ss.webp" alt="Logo" class="logo" />
+        </a>
+
+        <!-- Toggle Button for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <!-- Dropdown for Cleaning Services -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="cleaningServiceDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cleaning Service
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="cleaningServiceDropdown"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="CleaningService/RegularOfficeClean"
+                  >
+                    Regular Office Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="CleaningService/CarpetCleaning"
+                  >
+                    Carpet Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="CleaningService/OfficeCarpetShampooing"
+                  >
+                    Office Carpet Shampooing
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="CleaningService/WindowCleaning"
+                  >
+                    Window Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="CleaningService/FacadeCleaning"
+                  >
+                    Facade Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="CleaningService/AfterBuildingCleaning"
+                  >
+                    After Building Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="CleaningService/PowerWashCleaning"
+                  >
+                    Power Wash Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="CleaningService/MattressCleaning"
+                  >
+                    Mattress Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="CleaningService/GroutCleaning">
+                    Grout Cleaning
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="CleaningService/GlassCleaning">
+                    Glass Cleaning
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Dropdown for Deep Cleaning -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="deepCleaningDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Deep Cleaning
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="deepCleaningDropdown">
+                <li>
+                  <a class="dropdown-item" href="DeepCleaning/VillaDeepCleaning"
+                    >Villa Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/DeepCleaningService"
+                    >Deep Cleaning Service</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/MoveInOutDeepCleaningService"
+                    >Move In/Out Deep Cleaning Service</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/FloorDeepCleaningService"
+                    >Floor Deep Cleaning Service</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/OfficeDeepCleaning"
+                    >Office Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="DeepCleaning/SofaDeepCleaning"
+                    >Sofa Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/KitchenDeepCleaning"
+                    >Kitchen Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/ApartmentDeepCleaning"
+                    >Apartment Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/BalconyDeepCleaning"
+                    >Balcony Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/GarageDeepCleaning"
+                    >Garage Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="DeepCleaning/SteamDeepCleaning"
+                    >Steam Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/OvenBBQDeepCleaning"
+                    >Oven &amp; BBQ Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/RestaurantDeepCleaning"
+                    >Restaurant Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="DeepCleaning/ClubDeepCleaning"
+                    >Club Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="DeepCleaning/GymDeepCleaning"
+                    >Gym Deep Cleaning</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="DeepCleaning/CommercialDeepCleaning"
+                    >Commercial Deep Cleaning</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="image-section">
+      <div class="content">
+        <h1>EMIRATES CLEANING SERVICE</h1>
+        <p>
+          We provide the best services to meet your needs. Get in touch with us
+          today!
+        </p>
+        <a href="https://wa.me/+971544787079" class="whatsapp-btn">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+            alt="WhatsApp"
+          />
+          Book Now
+        </a>
+      </div>
+    </section>
+    <!-- Service Cards Carousel Section -->
+    <section id="services" class="service bg-light">
+      <div class="title-container">
+        <h2 class="section-title">
+          <span class="title-text">Our Services</span>
+        </h2>
+      </div>
+      <div class="container">
+        <!-- desktop view -->
+        <div class="desktop-view">
+          <div
+            id="serviceCarousel"
+            class="carousel slide d-none d-md-block"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- Carousel Item 1: Cards 1, 2, 3 -->
+              <div class="carousel-item active">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <!-- Card 1 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Regular Office Cleaning" />
+                      <div class="card-body">
+                        <h3>Regular Office Cleaning</h3>
+                        <p>
+                          Maintain a pristine and professional workspace with
+                          our regular office cleaning service.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 2 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Carpet Cleaning" />
+                      <div class="card-body">
+                        <h3>Carpet Cleaning</h3>
+                        <p>
+                          Revitalize your carpets with our deep and effective
+                          carpet cleaning techniques.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 3 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Office Carpet Shampooing" />
+                      <div class="card-body">
+                        <h3>Office Carpet Shampooing</h3>
+                        <p>
+                          Experience a fresh start with our specialized office
+                          carpet shampooing that removes stubborn stains.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Item 2: Cards 4, 5, 6 -->
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <!-- Card 4 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Window Cleaning" />
+                      <div class="card-body">
+                        <h3>Window Cleaning</h3>
+                        <p>
+                          Let natural light shine through with our streak-free
+                          window cleaning service.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 5 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Facade Cleaning" />
+                      <div class="card-body">
+                        <h3>Facade Cleaning</h3>
+                        <p>
+                          Enhance your building's exterior with our expert
+                          facade cleaning, ensuring a polished look.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 6 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="After Building Cleaning" />
+                      <div class="card-body">
+                        <h3>After Building Cleaning</h3>
+                        <p>
+                          Post-construction mess? Our after building cleaning
+                          service will make your space spotless2.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Item 3: Cards 7, 8, 9 -->
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <!-- Card 7 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Power wash Cleaning" />
+                      <div class="card-body">
+                        <h3>Power wash Cleaning</h3>
+                        <p>
+                          Blast away dirt and grime with our high-pressure power
+                          wash cleaning.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 8 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Mattress Cleaning" />
+                      <div class="card-body">
+                        <h3>Mattress Cleaning</h3>
+                        <p>
+                          Ensure a healthier sleep environment with our thorough
+                          mattress cleaning service.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 9 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Grout Cleaning" />
+                      <div class="card-body">
+                        <h3>Grout Cleaning</h3>
+                        <p>
+                          Restore the original shine to your tiled surfaces with
+                          our expert grout cleaning.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Item 4: Cards 10, 11, 12 -->
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <!-- Card 10 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Glass cleaning" />
+                      <div class="card-body">
+                        <h3>Glass cleaning</h3>
+                        <p>
+                          Our glass cleaning service delivers crystal-clear
+                          windows and surfaces, free from smudges.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 11 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Villa Deep cleaning" />
+                      <div class="card-body">
+                        <h3>Villa Deep cleaning</h3>
+                        <p>
+                          Experience luxury cleaning for your villa with our
+                          comprehensive deep cleaning service.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 12 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Deep cleaning service" />
+                      <div class="card-body">
+                        <h3>Deep cleaning service</h3>
+                        <p>
+                          Our deep cleaning service covers every nook and
+                          cranny, leaving your space impeccably clean.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Item 5: Cards 13, 14, 15 -->
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <!-- Card 13 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img
+                        src="images/ss2.webp"
+                        alt="Move in/out deep cleaning service"
+                      />
+                      <div class="card-body">
+                        <h3>Move in/out deep cleaning service</h3>
+                        <p>
+                          Transition smoothly with our move in/out deep cleaning
+                          service designed for new beginnings.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 14 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img
+                        src="images/ss2.webp"
+                        alt="Floor deep cleaning service"
+                      />
+                      <div class="card-body">
+                        <h3>Floor deep cleaning service</h3>
+                        <p>
+                          Revive your floors with our intensive floor deep
+                          cleaning service that removes years of buildup.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 15 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Office deep cleaning" />
+                      <div class="card-body">
+                        <h3>Office deep cleaning</h3>
+                        <p>
+                          Create a healthier workplace with our thorough office
+                          deep cleaning service.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Item 6: Cards 16, 17, 18 -->
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <!-- Card 16 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Sofa deep cleaning" />
+                      <div class="card-body">
+                        <h3>Sofa Shampooing</h3>
+                        <p>
+                          Refresh your living area with our sofa deep cleaning
+                          service, perfect for eliminating stains and odors.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 17 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Kitchen deep cleaning" />
+                      <div class="card-body">
+                        <h3>Kitchen deep cleaning</h3>
+                        <p>
+                          Our kitchen deep cleaning service tackles grease and
+                          grime, ensuring a hygienic cooking space.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 18 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Apartment Deep cleaning" />
+                      <div class="card-body">
+                        <h3>Apartment Deep cleaning</h3>
+                        <p>
+                          Give your apartment a complete makeover with our
+                          expert deep cleaning solutions.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Item 7: Cards 19, 20, 21 -->
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <!-- Card 19 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Balcony deep cleaning" />
+                      <div class="card-body">
+                        <h3>Balcony deep cleaning</h3>
+                        <p>
+                          Enjoy a sparkling outdoor space with our balcony deep
+                          cleaning service.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 20 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Garage deep cleaning" />
+                      <div class="card-body">
+                        <h3>Garage deep cleaning</h3>
+                        <p>
+                          Clear out clutter and grime with our garage deep
+                          cleaning, leaving ample space for storage.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 21 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Steam deep cleaning" />
+                      <div class="card-body">
+                        <h3>Steam deep cleaning</h3>
+                        <p>
+                          Harness the power of steam with our steam deep
+                          cleaning service for a chemical-free clean.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Item 8: Cards 22, 23, 24 -->
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <!-- Card 22 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Oven & BBQ deep cleaning" />
+                      <div class="card-body">
+                        <h3>Oven & BBQ deep cleaning</h3>
+                        <p>
+                          Remove baked-on residues with our specialized oven &
+                          BBQ deep cleaning service.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 23 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Restaurant Deep cleaning" />
+                      <div class="card-body">
+                        <h3>Restaurant Deep cleaning</h3>
+                        <p>
+                          Ensure a sanitary dining experience with our
+                          comprehensive restaurant deep cleaning.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 24 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Club Deep cleaning" />
+                      <div class="card-body">
+                        <h3>Club Deep cleaning</h3>
+                        <p>
+                          Keep your club immaculate and inviting with our
+                          professional deep cleaning services.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Item 9: Cards 25, 26 -->
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <!-- Card 25 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Gym Deep cleaning" />
+                      <div class="card-body">
+                        <h3>Gym Deep cleaning</h3>
+                        <p>
+                          Promote a healthy workout environment with our gym
+                          deep cleaning service, targeting high-touch areas.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 26 -->
+                  <div class="col">
+                    <div class="service-card h-100">
+                      <img src="images/ss2.webp" alt="Commercial deep cleaning" />
+                      <div class="card-body">
+                        <h3>Commercial deep cleaning</h3>
+                        <p>
+                          Our commercial deep cleaning service is tailored to
+                          meet the rigorous standards of your business2.
+                        </p>
+                        <a
+                          href="https://wa.me/+971544787079"
+                          class="whatsapp-btn"
+                        >
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                            alt="WhatsApp"
+                          />
+                          Contact Us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Carousel Items -->
+            </div>
+
+            <!-- Carousel Controls -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#serviceCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#serviceCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- mobile view -->
+        <div class="mobile-view">
+          <div class="row row-cols-1 row-cols-sm-3 g-4">
+            <!-- Card 1: Regular Office Cleaning -->
+            <div class="col">
+              <a
+                href="CleaningService/RegularOfficeClean"
+                style="text-decoration: none; color: inherit"
+              >
+                <div class="service-card">
+                  <div class="icon-container text-center">
+                    <i class="fa-solid fa-building fa-3x"></i>
+                  </div>
+                  <div class="card-body text-center">
+                    <h3>Regular Office Cleaning</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Card 2: Carpet Cleaning -->
+            <div class="col">
+              <a href="CleaningService/CarpetCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-rug fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Carpet Cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 3: Office Carpet Shampooing -->
+            <div class="col">
+              <a href="CleaningService/OfficeCarpetShampooing" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-spray-can fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Office Carpet Shampooing</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 4: Window Cleaning -->
+            <div class="col">
+              <a href="CleaningService/WindowCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-window-restore fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Window Cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 5: Facade Cleaning -->
+            <div class="col">
+              <a href="CleaningService/FacadeCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-city fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Facade Cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 6: After Building Cleaning -->
+            <div class="col">
+              <a href="CleaningService/AfterBuildingCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-broom fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>After Building Cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 7: Power wash Cleaning -->
+            <div class="col">
+              <a href="CleaningService/PowerWashCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-water fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Power wash Cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 8: Mattress Cleaning -->
+            <div class="col">
+              <a href="CleaningService/MattressCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-bed fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Mattress Cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 9: Grout Cleaning -->
+            <div class="col">
+              <a href="CleaningService/GroutCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-th fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Grout Cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 10: Glass cleaning -->
+            <div class="col">
+              <a href="CleaningService/GlassCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card flat-icon">
+                <div class="icon-container text-center">
+                  <i class="fi fi-rr-window-frame"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Glass cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 11: Villa Deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/VillaDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-house-chimney fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Villa Deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 12: Deep cleaning service -->
+            <div class="col">
+              <a href="DeepCleaning/DeepCleaningService" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-hand-sparkles fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Deep cleaning service</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 13: Move in/out deep cleaning service -->
+            <div class="col">
+              <a href="DeepCleaning/MoveInOutDeepCleaningService" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-truck-moving fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Move in/out deep cleaning service</h3>
+                </div>
+              </div>
+              </a>
+            </div>
+
+            <!-- Card 14: Floor deep cleaning service -->
+            <div class="col">
+              <a href="DeepCleaning/FloorDeepCleaningService" style="text-decoration: none; color: inherit;">
+              <div class="service-card flat-icon">
+                <div class="icon-container text-center">
+                  <i class="fi fi-rr-floor-alt"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Floor deep cleaning service</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 15: Office deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/OfficeDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-building fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Office deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 16: Sofa deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/SofaDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-couch fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Sofa Shampooing</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 17: Kitchen deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/KitchenDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-utensils fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Kitchen deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 18: Apartment Deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/ApartmentDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-building fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Apartment Deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 19: Balcony deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/BalconyDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-archway fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Balcony deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 20: Garage deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/GarageDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-warehouse fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Garage deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 21: Steam deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/SteamDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-cloud fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Steam deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 22: Oven & BBQ deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/OvenBBQDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-fire fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Oven & BBQ deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 23: Restaurant Deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/RestaurantDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-concierge-bell fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Restaurant Deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 24: Club Deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/ClubDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-glass-cheers fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Club Deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 25: Gym Deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/GymDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-dumbbell fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Gym Deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <!-- Card 26: Commercial deep cleaning -->
+            <div class="col">
+              <a href="DeepCleaning/CommercialDeepCleaning" style="text-decoration: none; color: inherit;">
+              <div class="service-card">
+                <div class="icon-container text-center">
+                  <i class="fa-solid fa-industry fa-3x"></i>
+                </div>
+                <div class="card-body text-center">
+                  <h3>Commercial deep cleaning</h3>
+                </div>
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="modern-carousel">
+        <div class="modern-carousel-slides">
+          <div class="modern-slide active">
+            <img
+              src="images/floor-deep-cleaning-service.webp"
+              alt="Feature 1"
+            />
+            <div class="modern-slide-content">
+              <h3>Hygienic Spaces</h3>
+              <p>
+                Professional cleaning services that ensure a spotless and hygienic environment for your home or office.
+              </p>
+            </div>
+          </div>
+          <div class="modern-slide">
+            <img src="images/window-cleaning.webp" alt="Feature 2" />
+            <div class="modern-slide-content">
+              <h3>Expert Cleaning</h3>
+              <p>Experienced cleaning professionals dedicated to providing top-tier cleaning services for your property.</p>
+            </div>
+          </div>
+          <div class="modern-slide">
+            <img src="images/working-image-3.webp" alt="Feature 3" />
+            <div class="modern-slide-content">
+              <h3>Eco-Friendly Solutions</h3>
+              <p>We use eco-friendly products and methods to deliver safe, effective, and sustainable cleaning services.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="modern-carousel-control prev">❮</button>
+        <button class="modern-carousel-control next">❯</button>
+
+        <div class="modern-indicators"></div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const slides = document.querySelectorAll(".modern-slide");
+        const indicators = document.querySelector(".modern-indicators");
+        const prevBtn = document.querySelector(".modern-carousel-control.prev");
+        const nextBtn = document.querySelector(".modern-carousel-control.next");
+        let currentIndex = 0;
+
+        // Create indicators
+        slides.forEach((_, index) => {
+          const dot = document.createElement("button");
+          dot.classList.add("dot");
+          if (index === 0) dot.classList.add("active");
+          dot.addEventListener("click", () => goToSlide(index));
+          indicators.appendChild(dot);
+        });
+
+        function updateCarousel() {
+          slides.forEach((slide, index) => {
+            slide.classList.toggle("active", index === currentIndex);
+          });
+
+          document.querySelectorAll(".dot").forEach((dot, index) => {
+            dot.classList.toggle("active", index === currentIndex);
+          });
+        }
+
+        function goToSlide(index) {
+          currentIndex = (index + slides.length) % slides.length;
+          updateCarousel();
+        }
+
+        function nextSlide() {
+          currentIndex = (currentIndex + 1) % slides.length;
+          updateCarousel();
+        }
+
+        function prevSlide() {
+          currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+          updateCarousel();
+        }
+
+        prevBtn.addEventListener("click", prevSlide);
+        nextBtn.addEventListener("click", nextSlide);
+
+        // Auto-advance (optional)
+        setInterval(nextSlide, 7000);
+      });
+    </script>
+    <!-- about section -->
+    <div class="title-container">
+      <h2 class="section-title">
+        <span class="title-text">About Us</span>
+      </h2>
+    </div>
+    <section id="about" class="about-us">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-image">
+            <img src="images/ss2.webp" alt="Cleaning Services Image" />
+          </div>
+          <div class="about-text">
+            <h2>About Our Cleaning Services</h2>
+            <p>
+              Welcome to our Cleaning Services Company! We provide a full
+              spectrum of professional cleaning solutions designed to keep your
+              home, office, or commercial space pristine and inviting.
+            </p>
+            <p>
+              Our offerings range from regular cleaning services like Office
+              Cleaning, Carpet Cleaning, Window Cleaning, Facade Cleaning, and
+              more, to specialized deep cleaning solutions including Villa Deep
+              Cleaning, Move in/out Deep Cleaning, Office Deep Cleaning, and
+              Commercial Deep Cleaning. With expertise in Power Wash Cleaning,
+              Mattress Cleaning, Grout Cleaning, and even Oven & BBQ Deep
+              Cleaning, our dedicated team ensures every detail is handled with
+              care.
+            </p>
+            <ul>
+              <li>
+                <strong>Our Mission:</strong> To deliver exceptional cleaning
+                services that create healthier, more vibrant spaces.
+              </li>
+              <li>
+                <strong>Our Vision:</strong> To be a global leader in innovative
+                and sustainable cleaning solutions.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="highlight-stripe"></div>
+    </section>
+
+    <!-- review section  -->
+    <!-- <section>
+      <div class="reviews-section">
+        <div class="title-container">
+          <h2 class="section-title">
+            <span class="title-text">Satisfied Customer</span>
+            <span class="title-subtext">That Drive Our Passion</span>
+          </h2>
+        </div>
+        <div class="review-container container">
+
+          <div class="review-card">
+            <div class="profile-header">
+              <img src="user1.webp" alt="Client" class="profile-img" />
+              <div>
+                <h3 class="client-name">Sarah Johnson</h3>
+                <p class="client-role">Marketing Director</p>
+              </div>
+            </div>
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              "Outstanding service! Their attention to detail and quick response
+              time helped us boost sales by 40% in just 3 months."
+            </p>
+            <div class="quote-icon">❝</div>
+          </div>
+
+          <div class="review-card">
+            <div class="profile-header">
+              <img src="user2.webp" alt="Client" class="profile-img" />
+              <div>
+                <h3 class="client-name">Michael Chen</h3>
+                <p class="client-role">CEO TechStart</p>
+              </div>
+            </div>
+            <div class="stars">★★★★☆</div>
+            <p class="review-text">
+              "Reliable partner in software development. Their team delivered
+              complex features ahead of schedule with excellent quality."
+            </p>
+            <div class="quote-icon">❝</div>
+          </div>
+
+          <div class="review-card">
+            <div class="profile-header">
+              <img src="user3.webp" alt="Client" class="profile-img" />
+              <div>
+                <h3 class="client-name">Emma Wilson</h3>
+                <p class="client-role">E-commerce Owner</p>
+              </div>
+            </div>
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              "Transformed our online store completely. Conversion rates tripled
+              and customer satisfaction is at all-time high!"
+            </p>
+            <div class="quote-icon">❝</div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Big Logo or Additional Content Section -->
+    <section id="contact" class="py-5">
+      <div class="brand-contact container text-center">
+        <div class="brand-logo">
+          <img src="images/only_name_high.webp" class="img-fluid" alt="" />
+        </div>
+        <div class="brand-details">
+          <h1>BUSINESS DETAILS</h1>
+          <strong>Working Hours</strong>
+          <p>8:00 am to 10:00 pm</p>
+          <!-- <strong>Address</strong>
+          <p>Blah Blah Blah</p> -->
+          <!-- WhatsApp and Call Buttons -->
+          <div class="business-button">
+            <a href="https://wa.me/+971544787079" class="whatsapp-btn">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+              />
+              WhatsApp
+            </a>
+            <a href="tel:+971544787079" class="call-btn">
+              <i class="mx-2 fas fa-phone"></i> Call Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <div class="social-icons">
+          <!-- Instagram -->
+          <a
+            href="https://www.instagram.com/emiratescleaningservice"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <!-- Facebook -->
+          <a
+            href="https://www.facebook.com/profile.php?id=61573453402987"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <!-- Twitter -->
+          <a href="https://x.com/EmiratesSe26469" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/@EmiratesCleaningService"
+            target="_blank"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://wa.me/+971544787079" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+
+        <p class="footer-bottom">
+          © 2025 Emirates Cleaning Service. All Rights Reserved.<br />
+        </p>
+      </div>
+    </footer>
+    <div class="sticky-bar">
+      <div class="business-button">
+        <a href="https://wa.me/+971544787079" class="whatsapp-btn">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+            alt="WhatsApp"
+          />
+          WhatsApp
+        </a>
+        <a href="tel:+971544787079" class="call-btn">
+          <i class="mx-2 fas fa-phone"></i> Call Us
+        </a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
